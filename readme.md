@@ -8,18 +8,6 @@ npm install
 node index.js --region=119.071877,25.42451,119.918152,25.789433 --source='https://xxx.com/[x]/[y]/[z]' --max=18
 ```
 
-## 数据源参考
-Google 卫星图像
-- 国外 https://mts1.google.com/vt/lyrs=s&hl=zh-CN&x=[x]&y=[y]&z=[z]
-- 国内 https://gac-geo.googlecnapps.cn/maps/vt?lyrs=s&x=[x]&y=[y]&z=[z]
-
-Mapbox
-- 高程图 https://api.mapbox.com/v4/mapbox.terrain-rgb/[z]/[x]/[y].png?access_token=密钥
-- 卫星图 https://api.mapbox.com/v4/mapbox.satellite/[z]/[x]/[y].jpg?access_token=密钥
-
-Maptiler
-- https://cloud.maptiler.com/maps/
-
 ## 参数说明
 ```
   -s, --source    http://somesource.com/[x]/[y]/[z]
@@ -32,3 +20,16 @@ Maptiler
   -h, --help      显示帮助信息
   -v, --version   显示版本号
 ```
+
+
+## 数据源参考
+Google 卫星图像
+- 国外 https://mts1.google.com/vt/lyrs=s&hl=zh-CN&x=[x]&y=[y]&z=[z]
+- 国内 https://gac-geo.googlecnapps.cn/maps/vt?lyrs=s&x=[x]&y=[y]&z=[z]
+
+Mapbox
+- 高程图 https://api.mapbox.com/v4/mapbox.terrain-rgb/[z]/[x]/[y].png?access_token=密钥
+- 卫星图 https://api.mapbox.com/v4/mapbox.satellite/[z]/[x]/[y].jpg?access_token=密钥
+
+Maptiler
+- https://cloud.maptiler.com/maps/
